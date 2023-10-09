@@ -8,6 +8,8 @@ bibliography: BibliographyModule5.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
 ```
 # Introduction
 ### Body Temperature Responses to Exercise
