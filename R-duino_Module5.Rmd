@@ -3,15 +3,21 @@ title: "Project 5: Does body temperature vary in human subjects according to act
 author: "Lauren Geary, Julia Curry, Connor Booth, Weihang Huang"
 date: "2023-10-04"
 output: html_document
+bibliography: BibliographyModule5.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 # Introduction
+### Core Temperature Responses to Exercise
+
+According to @sawka1993physiological ,during muscular exercise, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production, and essentially steady-state values are achieved. At the initiation of exercise, the metabolic rate increases immediately; however, the thermoregulatory effector responses for heat dissipation respond more slowly. Eventually, these heat loss mechanisms increase sufficiently to balance metabolic heat production, allowing achievement of a steady-state core temperature.
+
 
 
 # Results
+We combined data of body temperature from the active and inactive conditions for all group members into one table and them plotted the data for comparison.
 
 ```{r, echo=FALSE, message=FALSE}
 library(tidyverse)
@@ -33,28 +39,25 @@ dat%>%
   ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who) #plot to see what we get
 ```
 
+From the plot, it's clear that the body temperature during active state is lower than the body temperature during couch state for all four of our group members.
+
 # Discussion
 
 
 # Author Contributions
 
+### Julia Curry 
+Combined all the data from the group into one table. Found and cited a study in the introduction that explains "Core Temperature Responses to Exercise".
 
-## R Markdown
+### Connor Booth
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### Lauren Geary
+Generated .csv files with group data of active and inactive conditions. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Weihang Huang
+Created the bibliography page from the reference found by Julia and pushed the introduction from Julia to the rmd profile.
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+# Reference
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
