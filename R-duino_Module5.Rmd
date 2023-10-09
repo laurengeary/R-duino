@@ -56,8 +56,7 @@ Combined all the data from the group into one table. Found and cited a study in 
 Generated .csv files with group data of active and inactive conditions. 
 
 ### Weihang Huang
-Created the bibligrophy text file and modified the introduction wrote by Julia
-
+Created the bibligrophy text file and modified the introduction wrote by Julia. Wrote the dicussion session.
 
 # Reference
 
