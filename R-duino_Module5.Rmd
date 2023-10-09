@@ -10,12 +10,13 @@ bibliography: BibliographyModule5.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 # Introduction
-### Core Temperature Responses to Exercise
+### Body Temperature Responses to Exercise
 
-According to @7318608 ,during low intensity aerobic exercise, skin temperature over both active and inactive muscles decreases, returning to normal values  a few minutes after it. This finding is counterintuitive, because according to @sawka1993physiological, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production during exercise. We would like to investigate on the topic of whetherbody temperature vary in human subjects according to activity level?.
+According to @7318608 ,during low intensity aerobic exercise, skin temperature over both active and inactive muscles decreases, returning to normal values  a few minutes after it. This finding is counterintuitive, because according to @sawka1993physiological, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production during exercise. We would like to investigate on the topic of whether body temperature vary in human subjects according to activity level?.
 
 # Results
-We combined data of body temperature from the active and inactive conditions for all group members into one table and them plotted the data for comparison.
+
+ DS18B20 Sensor is used to collect the body temperature data and then data of body temperature from the active and inactive conditions for all group members is combined into one table and them plotted the data for comparison.
 
 ```{r, echo=FALSE, message=FALSE}
 library(tidyverse)
@@ -40,7 +41,9 @@ dat%>%
 From the plot, it's clear that the body temperature during active state is lower than the body temperature during couch state for all four of our group members.
 
 # Discussion
-The results is not consistent with the results from the paper @sawka1993physiological , the body temperature decreases instead of increase after exercise.
+The results is consistent with the findings from the paper @731860 that the skin temperature decreases instead of increases after exercise. Our first hypothesis to explain the decrease in skin temperature is that the evaporating cooling is enhanced during exercise. Howver, according to @731860, fall in skin temperature during initial exercise was not due to increased evaporative cooling but to vasoconstriction, probably caused by non-thermal factors.
+
+To investigate on the effect of level of activity on the *core* temperature of human, more advanced equipment and better experimental design is needed.
 
 # Author Contributions
 
@@ -53,7 +56,7 @@ Combined all the data from the group into one table. Found and cited a study in 
 Generated .csv files with group data of active and inactive conditions. 
 
 ### Weihang Huang
-Created the bibliography page from the reference found by Julia and pushed the introduction from Julia to the rmd profile.
+Created the bibligrophy text file and modified the introduction wrote by Julia
 
 
 # Reference
