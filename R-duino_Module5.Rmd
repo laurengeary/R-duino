@@ -12,9 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Introduction
 ### Core Temperature Responses to Exercise
 
-According to @sawka1993physiological ,during muscular exercise, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production, and essentially steady-state values are achieved. At the initiation of exercise, the metabolic rate increases immediately; however, the thermoregulatory effector responses for heat dissipation respond more slowly. Eventually, these heat loss mechanisms increase sufficiently to balance metabolic heat production, allowing achievement of a steady-state core temperature.
-
-
+According to @7318608 ,during low intensity aerobic exercise, skin temperature over both active and inactive muscles decreases, returning to normal values  a few minutes after it. This finding is counterintuitive, because according to @sawka1993physiological, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production during exercise. We would like to investigate on the topic of whetherbody temperature vary in human subjects according to activity level?.
 
 # Results
 We combined data of body temperature from the active and inactive conditions for all group members into one table and them plotted the data for comparison.
@@ -42,7 +40,7 @@ dat%>%
 From the plot, it's clear that the body temperature during active state is lower than the body temperature during couch state for all four of our group members.
 
 # Discussion
-
+The results is not consistent with the results from the paper @sawka1993physiological , the body temperature decreases instead of increase after exercise.
 
 # Author Contributions
 
