@@ -56,7 +56,7 @@ Combined all the data from the group into one table. Found and cited a study in 
 Proof reading and final touches.
 
 ### Lauren Geary
-Generated .csv files with group data of active and inactive conditions. 
+Generated .csv files with group data of active and inactive conditions.  Produced box plots. 
 
 ### Weihang Huang
 Created the bibliography text file and modified the introduction wrote by Julia. Wrote the discussion session.
