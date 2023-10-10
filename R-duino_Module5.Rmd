@@ -14,7 +14,7 @@ library(ggplot2)
 # Introduction
 ### Body Temperature Responses to Exercise
 
-According to @7318608, during low intensity aerobic exercise, skin temperature over both the active and inactive muscles decreases and returning to normal values a few moments after rest. This finding is counter intuitive, because according to @sawka1993physiological, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production during exercise. We would like to investigate on the topic of whether body temperature vary in human subjects according to activity level.
+According to @7318608, during low intensity aerobic exercise, skin temperature over both the active and inactive muscles decreases and returning to normal values a few minutes after rest. This finding is counter intuitive, because according to @sawka1993physiological, core temperature initially increases rapidly and subsequently increases at a reduced rate until heat loss equals heat production during exercise. Thus, this project will investigate on the topic of whether body temperature varies in human subjects according to activity level.
 
 # Results
 
@@ -61,6 +61,6 @@ Generated .csv files with group data of active and inactive conditions.
 ### Weihang Huang
 Created the bibliography text file and modified the introduction wrote by Julia. Wrote the discussion session.
 
-# Reference
+# References
 
 
